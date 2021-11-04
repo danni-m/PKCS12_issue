@@ -9,6 +9,6 @@ edition = "2021"
 log = "0.4.14"
 anyhow = "1.0.44"
 openssl = { version = "0.10.36", features = ["vendored"]}
-kube = { version = "0.63.2", features = ["derive", "rustls-tls"]}
+kube = { version = "0.63.2", features = ["derive", "native-tls"]}
 tokio = { version = "1.0.1", features = ["rt-multi-thread", "time", "fs", "macros", "net"] }
 k8s-openapi = { version = "0.13.1", features = ["v1_20"], default-features=false }
